@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.22.1 FATAL_ERROR)
 
 #============================================================================
 # Initialize the project
@@ -14,7 +14,7 @@ find_package(gz-cmake REQUIRED)
 #============================================================================
 # Configure the project
 #============================================================================
-gz_configure_project(VERSION_SUFFIX)
+gz_configure_project(VERSION_SUFFIX pre1)
 
 # all list of rotary packages
 
@@ -22,7 +22,6 @@ gz_find_package(gz-common REQUIRED)
 gz_find_package(gz-fuel_tools REQUIRED)
 gz_find_package(gz-sim REQUIRED)
 gz_find_package(gz-gui REQUIRED)
-gz_find_package(gz-launch REQUIRED)
 gz_find_package(gz-math REQUIRED)
 gz_find_package(gz-msgs REQUIRED)
 gz_find_package(gz-physics REQUIRED)
