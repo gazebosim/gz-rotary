@@ -53,5 +53,3 @@ if(build_errors)
   message(FATAL_ERROR "${error_str}")
 
 endif()
-
-install(FILES release_notes.md  DESTINATION ${GZ_DATA_INSTALL_DIR})
