@@ -52,3 +52,5 @@ if(build_errors)
   message(FATAL_ERROR "${error_str}")
 
 endif()
+
+install(FILES README.md  DESTINATION ${GZ_DATA_INSTALL_DIR})
