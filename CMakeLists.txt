@@ -53,4 +53,4 @@ if(build_errors)
 
 endif()
 
-install(FILES README.md  DESTINATION ${GZ_DATA_INSTALL_DIR})
+install(CODE "message(\"Nothing to install\")")
